@@ -22,5 +22,5 @@ pueden explorar películas organizadas por género, con un video destacado como 
 
 ## Tecnologías utilizadas  
 - **HTML5:** Para la estructura semántica de la página.  
-- **CSS3:** Para el diseño minimalista, animaciones y estilo responsivo.  
+- **CSS3:** Para el diseño minimalista. 
 - **Google Fonts:** Uso de tipografías modernas para un diseño elegante.  
