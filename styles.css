@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Roboto:wght@300;400;500&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #fff;
+}
+
+.header {
+  background-color: #E50914;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-link, .header-title {
+  color: white;
+  font-size: 30px;  /* Reducción de tamaño (letra del rojo - MauriPolis y Login) */
+  text-decoration: none;
+}
+
+.header-title {
+  font-size: 50px;  /* Reducción de tamaño (CARTELERA) */
+  font-weight: bold;
+}
+
+.cartelera {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.seccion {
+  margin-bottom: 40px;
+}
+
+.genero-titulo {
+  font-size: 30px;  /* Reducción de tamaño (GENERO DE LAS PELICULAS)*/
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.pelicula {
+  background-color: #222;
+  border-radius: 10px;
+  padding: 14px;  /* Reducción de tamaño (LOS BORDECITOS XD DE LOS CONTENEDORES)*/
+  width: 25%;  /* Reducción (IMAGEN PARA AGRANDARLO O REDUCIRLO DE TAMAÑO) */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.pelicula:hover {
+  transform: scale(1.05);
+}
+
+.pelicula img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.titulo {
+  margin-top: 10px;
+  font-size: 30px;  /* Reducción de tamaño (TITULO DE LAS PELICULAS) */
+  font-weight: 500;
+}
+
+.horarios {
+  margin-top: 10px;
+  font-size: 14px;  /* Reducción de tamaño (LAS HORAS DE LAS PELICULAS)*/
+}
+
+.footer {
+  background-color: #111;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+/* VIDEO */
+.video-container {
+  position: relative;
+  overflow: hidden;
+  height: 60vh; /* Ajusta la altura del video */
+  width: 100%;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 50%;
+  left: 10%; /* Ajusta este valor para la posición horizontal */
+  transform: translateY(-50%); /* Centra verticalmente sin afectar la posición horizontal */
+  color: white;
+  text-align: left; /* Alinea el texto a la izquierda */
+  z-index: 2;
+}
+
+.video-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.video-description {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.video-button {
+  background-color: #E50914;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.video-button:hover {
+  background-color: #b00710;
+}
